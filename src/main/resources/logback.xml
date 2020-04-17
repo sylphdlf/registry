@@ -7,7 +7,7 @@
         </encoder>
     </appender>
     <appender name="baseLog" class="ch.qos.logback.core.rolling.RollingFileAppender">
-        <File>/data/log/registry.log</File>
+        <File>log/registry.log</File>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
             <fileNamePattern>/data/log/registry.log.%d.%i</fileNamePattern>
             <timeBasedFileNamingAndTriggeringPolicy  class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
